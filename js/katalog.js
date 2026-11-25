@@ -9,10 +9,10 @@
   const EXT = '.jpg';
 
   const GROUPS = [
-    { key: 'spomenici', label: 'Spomenici',       single: 'Spomenik',       prefix: 's',  count: 161, file: i => 's (' + i + ')', note: 'Montaža i put uračunati u cenu.' },
-    { key: 'grobnice',  label: 'Grobnice',        single: 'Grobnica',       prefix: 'g',  count: 42 },
-    { key: 'stolovi',   label: 'Stolovi',         single: 'Sto',            prefix: 'st', count: 7 },
-    { key: 'ograde',    label: 'Ograde',          single: 'Ograda',         prefix: 'o',  count: 10 }
+    { key: 'spomenici', label: 'Spomenici', single: 'Spomenik', prefix: 's', count: 161, file: i => 's (' + i + ')', note: 'Montaža i put uračunati u cenu.' },
+    { key: 'grobnice', label: 'Grobnice', single: 'Grobnica', prefix: 'g', count: 42 },
+    { key: 'stolovi', label: 'Stolovi', single: 'Sto', prefix: 'st', count: 7 },
+    { key: 'ograde', label: 'Ograde', single: 'Ograda', prefix: 'o', count: 10 }
   ];
 
   const filters = document.getElementById('catalog-filters');
